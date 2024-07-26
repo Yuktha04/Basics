@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Box Example</title>
+    <link rel="stylesheet" href="App.css">
+</head>
+<body>
+<h1>Dropdown Box Example</h1>
+<div class="dropdown">
+    <button onclick="toggleDropdown()" class="drop-button">Select an option</button>
+    <div id="myDropdown" class="dropdown-content">
+        <a href="#" onclick="selectOption('Option 1')">Option 1</a>
+        <a href="#" onclick="selectOption('Option 2')">Option 2</a>
+        <a href="#" onclick="selectOption('Option 3')">Option 3</a>
+    </div>
+</div>
+<p id="selected-option">Selected option: None</p>
+
+<script src="script.js"></script>
+</body>
+</html>
